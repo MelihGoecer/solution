@@ -6,5 +6,5 @@ def print_hostname():
 	hostname = socket.gethostname()
 	return f"<h1>{hostname}</h1>"
 
-if __name__ == "__main":
+if __name__ == "__main__":
 	setup.run(host="localhost", port=8001)
